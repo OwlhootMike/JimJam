@@ -12,3 +12,7 @@ x = round(x);
 
 //Unlock controls
 canMove = true;
+
+// The player has officially finished moving. 
+// Now, tell all the enemies to take their turn!
+Enemy_Tick();

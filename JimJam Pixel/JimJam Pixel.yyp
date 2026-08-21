@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Audio","folderPath":"folders/Audio.yy","name":"Audio","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -28,10 +28,11 @@
   },
   "name":"JimJam Pixel",
   "resources":[
+    {"id":{"name":"obj_jimothy","path":"objects/obj_jimothy/obj_jimothy.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Slice 1","path":"sprites/Slice 1/Slice 1.yy",},},
     {"id":{"name":"spr_gmlink_base","path":"sprites/spr_gmlink_base/spr_gmlink_base.yy",},},
-    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_jimothy","path":"sprites/spr_jimothy/spr_jimothy.yy",},},
     {"id":{"name":"FloorTiles","path":"tilesets/FloorTiles/FloorTiles.yy",},},
   ],
   "resourceType":"GMProject",

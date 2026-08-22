@@ -31,6 +31,7 @@
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_jimothy","path":"objects/obj_jimothy/obj_jimothy.yy",},},
     {"id":{"name":"obj_roomManager","path":"objects/obj_roomManager/obj_roomManager.yy",},},
+    {"id":{"name":"Room1_2","path":"rooms/Room1_2/Room1_2.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Enemy_Tick","path":"scripts/Enemy_Tick/Enemy_Tick.yy",},},
     {"id":{"name":"spr_gmlink_base","path":"sprites/spr_gmlink_base/spr_gmlink_base.yy",},},
@@ -44,6 +45,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room1_2","path":"rooms/Room1_2/Room1_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

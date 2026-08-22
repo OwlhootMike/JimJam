@@ -6,3 +6,10 @@ canMove = true; //Set to False every time the player moves to disable control in
 
 //Health
 hp = 100;
+
+//Apple Cores Stored
+cores = 10;
+maxcores = 10;
+
+//Do we have a stick?
+foundStick = false;

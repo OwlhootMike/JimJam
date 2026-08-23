@@ -1,12 +1,13 @@
-target_x ??= 0;
-target_y ??= 0;
+//Get the coordinates of the mouse 
+target_x = floor(mouse_x/16)*16+8;
+target_y = floor(mouse_y/16)*16+8;
 
 //Send it!!!
-_throw_speed = 1;
+_throw_speed = 3;
 
 //Point the apple towards the direction of the target and set it in motion
 direction = point_direction(x, y, target_x, target_y);
 speed = _throw_speed;
 
-target_x = mouse_x;
-target_y = mouse_y;
+//Depth change
+depth = -100;

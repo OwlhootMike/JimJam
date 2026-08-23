@@ -1,4 +1,28 @@
-// --- CREATE EVENT ---
+randomise();
+
+//----------------------------
+//Setting up Camera
+//----------------------------
+//Set up Resolution and camera
+var _base_w = 320;
+var _base_h = 180;
+
+//Force the drawing canvas to match the pixel art dimensions
+surface_resize(application_surface, _base_w, _base_h);
+
+//Enable the viewports and camera 0
+view_enabled = true;
+view_visible[0] = true;
+
+//Create a camera that follows Jimothy
+var _camera = camera_create_view(0, 0, _base_w, _base_h, 0, obj_jimothy, -1, -1, _base_w / 2, _base_h / 2);
+
+//Set the physical window size to an integer scale
+window_set_size(_base_w * 4, _base_h * 4);
+window_center();
+
+//Make sure the GUI stays in HD
+display_set_gui_size(_base_w * 4, _base_h * 4);
 
 // Define the grid size (assuming 16x16 tiles)
 #macro CELL_SIZE 16 

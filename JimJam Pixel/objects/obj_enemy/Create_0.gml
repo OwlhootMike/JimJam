@@ -4,7 +4,7 @@ image_speed = 0; // Do not animate while standing still
 image_index = 0;
 
 //Enemy HP
-hp = irandom_range(4, 10);
+hp = irandom_range(4, 8);
 
 // Define the custom tick function
 take_turn = function() {
@@ -50,10 +50,11 @@ take_turn = function() {
         
         var _next_x = path_get_point_x(_path, 1);
         var _next_y = path_get_point_y(_path, 1);
+		var _amount = 0;
         
         if (_next_x > x) { 
             hspeed = 1; 
-            image_xscale = 1; 
+            image_xscale = 1;
         } 
         else if (_next_x < x) { 
             hspeed = -1; 

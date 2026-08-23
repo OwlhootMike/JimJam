@@ -3,12 +3,13 @@
   "%Name":"FloorTiles",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":8,
+    "SerialiseWidth":9,
+    "TileCompressedData":[-72,0,],
+    "TileDataFormat":1,
   },
   "name":"FloorTiles",
-  "out_columns":6,
+  "out_columns":9,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -34,5 +35,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":36,
+  "tile_count":80,
 }

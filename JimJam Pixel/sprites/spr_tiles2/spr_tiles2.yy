@@ -19,8 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f4e5b8ad-f683-4492-883b-a0422a872611","blendMode":0,"displayName":"default (2)","isLocked":false,"name":"f4e5b8ad-f683-4492-883b-a0422a872611","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"6930f636-9dd8-42df-ae1c-f61655736a81","blendMode":0,"displayName":"default","isLocked":false,"name":"6930f636-9dd8-42df-ae1c-f61655736a81","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b7d18ba2-f78d-428b-9bb7-6b1e9c114682","blendMode":0,"displayName":"default","isLocked":false,"name":"b7d18ba2-f78d-428b-9bb7-6b1e9c114682","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_tiles2",
   "nineSlice":null,

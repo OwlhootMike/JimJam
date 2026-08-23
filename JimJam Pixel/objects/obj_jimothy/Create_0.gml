@@ -5,7 +5,8 @@ image_speed = 0;
 canMove = true; //Set to False every time the player moves to disable control input.
 
 //Health
-hp = 100;
+hp = 20;
+maxHP = 20;
 
 //Do we have a stick?
 foundStick = false;

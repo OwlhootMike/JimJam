@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_jimothy",
-    "path":"sprites/spr_jimothy/spr_jimothy.yy",
+    "name":"spr_rat",
+    "path":"sprites/spr_rat/spr_rat.yy",
   },
   "spriteMaskId":null,
   "visible":true,

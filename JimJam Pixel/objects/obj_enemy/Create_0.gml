@@ -3,8 +3,11 @@ is_moving = false;
 image_speed = 0; // Do not animate while standing still
 image_index = 0;
 
+//HP Modifier when the game gets harder
+hpMod = 0;
+
 //Enemy HP
-hp = irandom_range(4, 8);
+hp = irandom_range(4, 8) + hpMod;
 
 // Define the custom tick function
 take_turn = function() {

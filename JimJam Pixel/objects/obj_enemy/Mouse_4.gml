@@ -17,7 +17,14 @@ if ((_dist_x == 16 && _dist_y == 0) || (_dist_x == 0 && _dist_y == 16)) {
     else if (obj_jimothy.x < x) image_xscale = 1;
     
     // 2. Apply damage to this enemy
-    hp -= 2; 
+	if(obj_jimothy.myWeapon == 0){
+		hp -= obj_jimothy.weapon_array[0][2];
+ 
+	}
+	if(obj_jimothy.myWeapon == 2){
+		hp -= obj_jimothy.weapon_array[2][2];
+
+	}
 	
 	if(hp <= 0){
 	

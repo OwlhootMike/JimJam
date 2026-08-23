@@ -23,9 +23,12 @@ myWeapon = 0;
 //Arrays of weapons
 weapon_array[0][0] = "Stick"; //Name of Item
 weapon_array[0][1] = 10; //Uses left
+weapon_array[0][2] = 2; //Damage
 
 weapon_array[1][0] = "Apple Core";
 weapon_array[1][1] = 10;
+weapon_array[1][2] = 3;
 
 weapon_array[2][0] = "Rock";
 weapon_array[2][1] = 5;
+weapon_array[2][2] = 4;

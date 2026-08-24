@@ -29,3 +29,6 @@ if(obj_item._itemVal == 2){
 }
 
 instance_create_depth(x, y, -100, obj_healing);
+
+hpShow = true;
+alarm[2] = 60;

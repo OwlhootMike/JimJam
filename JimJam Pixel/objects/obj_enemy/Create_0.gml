@@ -3,28 +3,34 @@ is_moving = false;
 image_speed = 0; // Do not animate while standing still
 image_index = 0;
 
-//HP Modifier when the game gets harder
+// Coordinate trackers for precise movement
+target_x = x;
+target_y = y;
+prev_x = x;
+prev_y = y;
+
+// HP Modifier when the game gets harder
 hpMod = 0;
 
-//Enemy HP
-hp = irandom_range(4, 8) + hpMod;
+//Bool to show life Bar
+hpShow = false;
+
+// Enemy HP
+hp = irandom_range(5, 8) + hpMod;
+maxHP = hp;
 
 // Define the custom tick function
 take_turn = function() {
     
-    // Safety check: Don't calculate a new move if already moving
     // Safety checks
     if (is_moving == true) return; 
     if (!instance_exists(obj_jimothy)) return;
     
     // --- 1. THE ATTACK CHECK ---
     
-    // Calculate the absolute distance between the enemy and the player
     var _dist_x = abs(x - obj_jimothy.x);
     var _dist_y = abs(y - obj_jimothy.y);
     
-    // Check if the player is exactly 1 cell away horizontally OR vertically
-    // (This prevents diagonal attacks)
     if ((_dist_x == CELL_SIZE && _dist_y == 0) || (_dist_x == 0 && _dist_y == CELL_SIZE)) {
         
         // Face the player
@@ -34,45 +40,38 @@ take_turn = function() {
             image_xscale = -1;
         }
         
-        // Inflict damage (Assuming your player has a variable called 'hp')
+		image_speed = 1;
+		sprite_index = spr_ratBite;
+		instance_create_depth(x, y, -100, obj_ratChomp);
         obj_jimothy.hp -= 1; 
-        
-        // Optional: Trigger an attack animation here
-        
-        // CRITICAL: Exit the function right now so the enemy doesn't move!
+		obj_jimothy.hpShow = true;
+		obj_jimothy.alarm[2] = 60;
+		alarm[0] = 30;
         return; 
     }
     
-    
-    // --- 2. THE MOVEMENT CODE (Only runs if the attack check failed) ---
+    // --- 2. THE MOVEMENT CODE ---
     
     var _path = path_add();
     var _found_path = mp_grid_path(global.nav_grid, _path, x, y, obj_jimothy.x, obj_jimothy.y, false);
     
     if (_found_path && path_get_number(_path) > 1) {
         
-        var _next_x = path_get_point_x(_path, 1);
-        var _next_y = path_get_point_y(_path, 1);
-		var _amount = 0;
+        // Get the exact coordinates of the next 16x16 tile
+        target_x = path_get_point_x(_path, 1);
+        target_y = path_get_point_y(_path, 1);
         
-        if (_next_x > x) { 
-            hspeed = 1; 
+        // Face the correct direction
+        if (target_x > x) {
             image_xscale = 1;
-        } 
-        else if (_next_x < x) { 
-            hspeed = -1; 
-            image_xscale = -1; 
-        } 
-        else if (_next_y > y) { 
-            vspeed = 1; 
-        } 
-        else if (_next_y < y) { 
-            vspeed = -1; 
+        } else if (target_x < x) {
+            image_xscale = -1;
         }
         
+        // Start the movement state (NO speed or alarms used!)
         is_moving = true;
+        sprite_index = spr_ratWalk;
         image_speed = 1; 
-        alarm[0] = 16;
     }
     
     path_delete(_path);

@@ -14,6 +14,13 @@ foundStick = false;
 target_x = 0;
 target_y = 0;
 
+//Previous X and Y
+prevX = x;
+prevY = y;
+
+//Bool to show the health bar
+hpShow = false;
+
 /*Weapon Coding*/
 
 //Create the arrays for Weapon

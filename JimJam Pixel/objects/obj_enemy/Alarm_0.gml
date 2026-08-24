@@ -1,10 +1,7 @@
-// Stop all movement
-hspeed = 0;
-vspeed = 0;
-
 // Stop animation and reset to the first frame
 image_speed = 0;
 image_index = 0;
+sprite_index = spr_rat;
 
 // Snap perfectly to whole numbers to prevent pixel-blurring
 x = round(x);

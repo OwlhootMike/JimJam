@@ -17,12 +17,34 @@ if ((_dist_x == 16 && _dist_y == 0) || (_dist_x == 0 && _dist_y == 16)) {
     else if (obj_jimothy.x < x) image_xscale = 1;
     
     // 2. Apply damage to this enemy
-	if(obj_jimothy.myWeapon == 0){
-		hp -= obj_jimothy.weapon_array[0][2];
+	if(obj_jimothy.myWeapon == 0 ) && (obj_jimothy.weapon_array[0][1] > 0){
+		hp -= obj_jimothy.weapon_array[0][2]; //Do the assigned Damage
+		obj_jimothy.weapon_array[0][1]--; //Reduce amount of uses left
+		obj_jimothy.sprite_index = Jimmy_bap_bap; //Change Jimothy's sprite
+		obj_jimothy.image_speed = 1; //Animate Jimothy
+		obj_jimothy.alarm[1] = 30; //Reset him!
+		
+		//Show the life bar
+		hpShow = true;
+		alarm[2] = 60;
+		
+		//Instantiate the effect
+		instance_create_depth(x, y, -100, obj_hit);
  
 	}
-	if(obj_jimothy.myWeapon == 2){
+	if(obj_jimothy.myWeapon == 2) && (obj_jimothy.weapon_array[2][1] > 0){
 		hp -= obj_jimothy.weapon_array[2][2];
+		obj_jimothy.weapon_array[2][1]--;
+		obj_jimothy.sprite_index = Jimmy_bap_bap;
+		obj_jimothy.image_speed = 1;
+		obj_jimothy.alarm[1] = 30;
+		
+		//Show the life bar
+		hpShow = true;
+		alarm[2] = 60;
+		
+		//Instantiate the effect
+		instance_create_depth(x, y, -100, obj_hit);
 
 	}
 	

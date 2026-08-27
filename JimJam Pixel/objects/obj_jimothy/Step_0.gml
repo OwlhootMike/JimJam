@@ -12,8 +12,9 @@ if (is_moving == true) {
         
         // Stop moving and unlock controls!
         is_moving = false;
-        canMove = true; // <--- ADD THIS LINE!
+		alarm[3] = 10;
         image_speed = 0;
+		image_index = 0;
         
         // The turn is over, tell the enemies to move!
         Enemy_Tick();

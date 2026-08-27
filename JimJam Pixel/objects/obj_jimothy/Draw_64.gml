@@ -1,4 +1,7 @@
-draw_text(10, 30, "Amount " + string(weapon_array[myWeapon,1]));
+
+if(myWeapon != 0){
+	draw_text(10, 30, "Amount " + string(weapon_array[myWeapon,1]));
+}
 
 if(myWeapon == 0){
 draw_sprite(Stick, 0, 0, 0);

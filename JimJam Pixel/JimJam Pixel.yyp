@@ -44,6 +44,7 @@
     {"id":{"name":"obj_apple","path":"objects/obj_apple/obj_apple.yy",},},
     {"id":{"name":"obj_core","path":"objects/obj_core/obj_core.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
+    {"id":{"name":"obj_floorRock","path":"objects/obj_floorRock/obj_floorRock.yy",},},
     {"id":{"name":"obj_healing","path":"objects/obj_healing/obj_healing.yy",},},
     {"id":{"name":"obj_hit","path":"objects/obj_hit/obj_hit.yy",},},
     {"id":{"name":"obj_item","path":"objects/obj_item/obj_item.yy",},},

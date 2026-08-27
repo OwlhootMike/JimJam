@@ -1,6 +1,6 @@
 myWeapon++;
 
-if(myWeapon > 1){
+if(myWeapon > 2){
 
 	myWeapon=0;	
 	

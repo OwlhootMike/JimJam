@@ -36,11 +36,7 @@ global.nav_grid = mp_grid_create(0, 0, _cells_x, _cells_y, CELL_SIZE, CELL_SIZE)
 // 2. Make the entire map solid (unwalkable) by default
 mp_grid_add_rectangle(global.nav_grid, 0, 0, room_width, room_height);
 
-// 3. Get the ID of your floor layer
-// Looking specifically for the "Floor" layer mask data
-var _floor_map_id = layer_tilemap_get_id("Floor");
-
-// 4. Scan the room and carve out the walkable paths
+// 3. Scan every cell and use our Master Script to build the AI map!
 for (var _x = 0; _x < _cells_x; _x++) {
     for (var _y = 0; _y < _cells_y; _y++) {
         
@@ -48,13 +44,13 @@ for (var _x = 0; _x < _cells_x; _x++) {
         var _check_x = (_x * CELL_SIZE) + (CELL_SIZE / 2);
         var _check_y = (_y * CELL_SIZE) + (CELL_SIZE / 2);
         
-        // Check if a floor tile exists at this coordinate
-        var _tile_data = tilemap_get_at_pixel(_floor_map_id, _check_x, _check_y);
-        
-        if (_tile_data > 0) {
-            // A floor tile exists! Carve this cell out so enemies can walk here.
+        // Ask the Master Script: Is this cell safe for Jimothy?
+        if (is_tile_walkable(_check_x, _check_y) == true) {
+            
+            // If it's safe for Jimothy (Has floor, no walls), make it safe for enemies!
             mp_grid_clear_cell(global.nav_grid, _x, _y);
+            
         }
-        
+        // (If it returns false, we just leave the solid block there!)
     }
 }

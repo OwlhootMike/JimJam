@@ -23,4 +23,14 @@ if (canMove == true && is_moving == false) {
         // The tile is a wall! Jimothy does nothing.
         // (Play a "bump" sound here if you want!)
     }
+	
+	if(is_tile_spiked(_next_x, _next_y)) == true{
+	
+		hp -= 2;
+		hpShow = true;
+		alarm[2] = 60;
+		
+	}
+	
+	
 }

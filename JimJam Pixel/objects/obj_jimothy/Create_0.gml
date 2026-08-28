@@ -48,10 +48,12 @@ is_tile_walkable = function(_check_x, _check_y) {
     
     var _floor_map = layer_tilemap_get_id("Floor");
     var _wall_map = layer_tilemap_get_id("Walls");
+	
     
     // tilemap_get_at_pixel returns > 0 if a tile exists there
     var _has_floor = tilemap_get_at_pixel(_floor_map, _check_x, _check_y);
     var _has_wall = tilemap_get_at_pixel(_wall_map, _check_x, _check_y);
+	
     
     // It is ONLY walkable if a floor exists AND a wall does NOT exist
     if (_has_floor > 0 && _has_wall == 0) {
@@ -59,6 +61,24 @@ is_tile_walkable = function(_check_x, _check_y) {
     }
     
     return false; // Otherwise, it's a void or a barrier
+}
+
+is_tile_spiked = function(_check_x, _check_y){
+
+	var _spike_map = layer_tilemap_get_id("Spikes");
+	
+	var _has_spikes = tilemap_get_at_pixel(_spike_map, _check_x, _check_y);
+	
+	if(_has_spikes > 0){
+	
+		return true;
+	
+	}
+	
+	return false;
+	
+	
+	
 }
 
 

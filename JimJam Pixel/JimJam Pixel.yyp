@@ -30,6 +30,9 @@
   ],
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.gmparticlepresets-1.0.0","name":"io.gamemaker.gmparticlepresets-1.0.0","path":"io.gamemaker.gmparticlepresets-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_effect_gaussian_blur-1.0.0","name":"io.gamemaker.gm_effect_gaussian_blur-1.0.0","path":"io.gamemaker.gm_effect_gaussian_blur-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_heathaze-1.0.0","name":"io.gamemaker.gm_filter_heathaze-1.0.0","path":"io.gamemaker.gm_filter_heathaze-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_large_blur-1.0.0","name":"io.gamemaker.gm_filter_large_blur-1.0.0","path":"io.gamemaker.gm_filter_large_blur-1.0.0.yyp",},
   ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"JimothyTiles1.aseprite","CopyToMask":-1,"filePath":"datafiles","name":"JimothyTiles1.aseprite","resourceType":"GMIncludedFile","resourceVersion":"2.0",},

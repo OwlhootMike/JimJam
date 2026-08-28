@@ -7,5 +7,9 @@ function Enemy_Tick(){
     with (obj_enemy) {
         take_turn();
     }
+	
+	with(obj_squirrel){
+		take_turn();	
+	}
 
 }

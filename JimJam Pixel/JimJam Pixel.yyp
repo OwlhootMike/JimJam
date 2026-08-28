@@ -41,6 +41,7 @@
   },
   "name":"JimJam Pixel",
   "resources":[
+    {"id":{"name":"obj_acorn","path":"objects/obj_acorn/obj_acorn.yy",},},
     {"id":{"name":"obj_apple","path":"objects/obj_apple/obj_apple.yy",},},
     {"id":{"name":"obj_core","path":"objects/obj_core/obj_core.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
@@ -52,6 +53,7 @@
     {"id":{"name":"obj_ratChomp","path":"objects/obj_ratChomp/obj_ratChomp.yy",},},
     {"id":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},},
     {"id":{"name":"obj_roomManager","path":"objects/obj_roomManager/obj_roomManager.yy",},},
+    {"id":{"name":"obj_squirrel","path":"objects/obj_squirrel/obj_squirrel.yy",},},
     {"id":{"name":"obj_trashcan","path":"objects/obj_trashcan/obj_trashcan.yy",},},
     {"id":{"name":"ps_coreend","path":"particles/ps_coreend/ps_coreend.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -108,6 +110,7 @@
     {"id":{"name":"Score","path":"sprites/Score/Score.yy",},},
     {"id":{"name":"Sound_MusicandSound","path":"sprites/Sound_MusicandSound/Sound_MusicandSound.yy",},},
     {"id":{"name":"Sound_Settings","path":"sprites/Sound_Settings/Sound_Settings.yy",},},
+    {"id":{"name":"spr_acorn","path":"sprites/spr_acorn/spr_acorn.yy",},},
     {"id":{"name":"spr_apple","path":"sprites/spr_apple/spr_apple.yy",},},
     {"id":{"name":"spr_appleCore","path":"sprites/spr_appleCore/spr_appleCore.yy",},},
     {"id":{"name":"spr_burger","path":"sprites/spr_burger/spr_burger.yy",},},

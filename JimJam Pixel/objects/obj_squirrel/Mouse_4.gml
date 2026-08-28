@@ -25,6 +25,7 @@ if ((_dist_x == 16 && _dist_y == 0) || (_dist_x == 0 && _dist_y == 16)) {
 		if(obj_jimothy.x < x){
 			obj_jimothy.image_xscale = 1;
 		}
+		
 		hp -= obj_jimothy.weapon_array[0][2]; //Do the assigned Damage
 		obj_jimothy.sprite_index = Jimmy_bap_bap; //Change Jimothy's sprite
 		obj_jimothy.image_speed = 1; //Animate Jimothy

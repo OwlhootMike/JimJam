@@ -29,6 +29,7 @@ if (canMove == true && is_moving == false) {
 		hp -= 2;
 		hpShow = true;
 		alarm[2] = 60;
+		alarm[4] = 16;
 		
 	}
 }

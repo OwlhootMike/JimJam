@@ -1,6 +1,6 @@
 weapon_array[1][1]++;
 
-hp += 10;
+hp += 3;
 
 if(hp > maxHP){
 

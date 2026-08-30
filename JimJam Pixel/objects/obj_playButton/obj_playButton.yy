@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_swipe",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_playButton",
+  "eventList":[],
   "managed":true,
-  "name":"obj_swipe",
+  "name":"obj_playButton",
   "overriddenProperties":[],
   "parent":{
-    "name":"Effects",
-    "path":"folders/Objects/Effects.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Swipes_3",
-    "path":"sprites/Swipes_3/Swipes_3.yy",
+    "name":"Play_Game",
+    "path":"sprites/Play_Game/Play_Game.yy",
   },
   "spriteMaskId":null,
   "visible":true,

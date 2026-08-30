@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_Tiles_spikes",
-    "path":"sprites/spr_Tiles_spikes/spr_Tiles_spikes.yy",
+    "name":"spr_Tiles_spikes1",
+    "path":"sprites/spr_Tiles_spikes1/spr_Tiles_spikes1.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":3,
+  "tile_count":4,
 }

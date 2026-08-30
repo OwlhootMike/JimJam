@@ -29,6 +29,10 @@ if ((_dist_x == 16 && _dist_y == 0) || (_dist_x == 0 && _dist_y == 16)) {
 		obj_jimothy.image_speed = 1; //Animate Jimothy
 		obj_jimothy.alarm[1] = 30; //Reset him!
 		
+		//Change to fallen trash can
+		sprite_index = fallen_trashcan;
+		isDown = true;
+		
 		//Instantiate the effect
 		instance_create_depth(x, y, -100, obj_hit);
 		instance_create_depth(x, y, -100, obj_swipe);

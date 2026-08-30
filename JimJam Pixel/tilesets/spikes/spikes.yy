@@ -12,14 +12,14 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"JimJam Pixel",
-    "path":"JimJam Pixel.yyp",
+    "name":"Tiles",
+    "path":"folders/Tiles.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_Tiles_spikes1",
-    "path":"sprites/spr_Tiles_spikes1/spr_Tiles_spikes1.yy",
+    "name":"spr_Tiles_spikes",
+    "path":"sprites/spr_Tiles_spikes/spr_Tiles_spikes.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

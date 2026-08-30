@@ -1,12 +1,4 @@
-hp -= obj_jimothy.weapon_array[1][2];
-
-//Show the life bar
-hpShow = true;
-alarm[2] = 60;
-
-
-if(hp <=0){
-
-	instance_destroy();	
-	
-}
+//Change to fallen trash can
+sprite_index = fallen_trashcan;
+isDown = true;
+		

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"JimJam Pixel",
-    "path":"JimJam Pixel.yyp",
+    "name":"Tiles",
+    "path":"folders/Tiles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -104,7 +104,7 @@
           2,-13,-2147483648,1,1,-27,-2147483648,1,1,-42,-2147483648,1,2,-15,-2147483648,1,1,-61,-2147483648,1,
           2,-85,-2147483648,-2,2,-6,-2147483648,1,2,-86,-2147483648,1,2,-278,-2147483648,1,1,-82,-2147483648,1,
           1,-65,-2147483648,1,2,-85,-2147483648,-2,2,-3,-2147483648,1,2,-565,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"spikes","path":"tilesets/spikes/spikes.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Walls","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Walls","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
           -29,-2147483648,17,1,2,11,11,2,2,22,2,22,2,2,22,22,2,2,22,3,-3,-2147483648,16,6,7,8,9,-2147483648,-2147483648,
           1,2,2,22,2,22,22,2,2,3,-50,-2147483648,1,13,-15,-2147483648,11,13,-2147483648,6,8,39,-2147483648,-2147483648,

@@ -273,8 +273,8 @@
   ],
   "name":"Room3",
   "parent":{
-    "name":"JimJam Pixel",
-    "path":"JimJam Pixel.yyp",
+    "name":"JimJamPixel",
+    "path":"JimJamPixel.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{

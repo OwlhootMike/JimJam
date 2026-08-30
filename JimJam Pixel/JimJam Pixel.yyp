@@ -140,6 +140,8 @@
     {"id":{"name":"Status_FX","path":"sprites/Status_FX/Status_FX.yy",},},
     {"id":{"name":"Stick","path":"sprites/Stick/Stick.yy",},},
     {"id":{"name":"Swipes_3","path":"sprites/Swipes_3/Swipes_3.yy",},},
+    {"id":{"name":"TreeWithLeaves","path":"sprites/TreeWithLeaves/TreeWithLeaves.yy",},},
+    {"id":{"name":"TreeWithoutLeaves","path":"sprites/TreeWithoutLeaves/TreeWithoutLeaves.yy",},},
     {"id":{"name":"Wall_All","path":"sprites/Wall_All/Wall_All.yy",},},
     {"id":{"name":"Wall_Corner_Up_L__1_","path":"sprites/Wall_Corner_Up_L__1_/Wall_Corner_Up_L__1_.yy",},},
     {"id":{"name":"Wall_Corner_Up_R__1_","path":"sprites/Wall_Corner_Up_R__1_/Wall_Corner_Up_R__1_.yy",},},

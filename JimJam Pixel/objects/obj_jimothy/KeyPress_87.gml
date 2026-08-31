@@ -18,6 +18,18 @@ if (canMove == true && is_moving == false) {
         
         // 4. Update animations
         image_speed = 2;
+		
+		if(poison = true){
+			hp--;
+			poisonTick++
+			hpShow = true;
+			
+			if(poisonTick >= maxPoisonTick){
+				poison = false;
+				poisonTick = 0;
+			}
+			alarm[2] = 30;
+		}
        
         
     } else {

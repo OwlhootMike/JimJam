@@ -14,3 +14,7 @@ draw_sprite(Apple_Core, 0, 0, 0);
 if(myWeapon == 2){
 draw_sprite(Rock, 0, 0, 0);
 }
+
+
+draw_text(10, 40, "Poisoned: " + string(poison));
+draw_text(10,50, "Ticks: " + string(poisonTick));

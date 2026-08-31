@@ -11,5 +11,9 @@ function Enemy_Tick(){
 	with(obj_squirrel){
 		take_turn();	
 	}
+	
+	with(obj_poisonRat){
+		take_turn();	
+	}
 
 }

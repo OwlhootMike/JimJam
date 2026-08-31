@@ -15,9 +15,6 @@ hp = 20;
 maxHP = 20;
 isDead = false;
 
-//Do we have a stick?
-foundStick = false;
-
 
 //Previous X and Y
 prevX = x;
@@ -25,6 +22,11 @@ prevY = y;
 
 //Bool to show the health bar
 hpShow = false;
+
+//Poison Status
+poison = false;
+poisonTick = 0;
+maxPoisonTick = 5;
 
 /*Weapon Coding*/
 

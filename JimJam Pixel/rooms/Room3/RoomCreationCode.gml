@@ -1,1 +1,0 @@
-obj_blackScreen.fadein();

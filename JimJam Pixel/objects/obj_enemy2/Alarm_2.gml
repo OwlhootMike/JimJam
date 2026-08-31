@@ -1,0 +1,1 @@
+hpShow = false;

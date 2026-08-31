@@ -67,7 +67,6 @@
     {"id":{"name":"obj_swipe","path":"objects/obj_swipe/obj_swipe.yy",},},
     {"id":{"name":"obj_tracker","path":"objects/obj_tracker/obj_tracker.yy",},},
     {"id":{"name":"obj_trashcan","path":"objects/obj_trashcan/obj_trashcan.yy",},},
-    {"id":{"name":"Object62","path":"objects/Object62/Object62.yy",},},
     {"id":{"name":"ps_coreend","path":"particles/ps_coreend/ps_coreend.yy",},},
     {"id":{"name":"R1Splash","path":"rooms/R1Splash/R1Splash.yy",},},
     {"id":{"name":"R2MainMenu","path":"rooms/R2MainMenu/R2MainMenu.yy",},},

@@ -7,6 +7,12 @@ if (fade_state == 1) {
     if (image_alpha >= 1) {
         image_alpha = 1; // Clamp it perfectly to 1
         fade_state = 0;  // Turn the switch off
+		
+		if(room == Room7){
+		
+			alarm[6] = 30;
+		
+		}
         
 		if(instance_exists(obj_jimothy) && obj_jimothy.isDead == true){
 		

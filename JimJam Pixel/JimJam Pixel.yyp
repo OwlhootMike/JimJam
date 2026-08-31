@@ -148,8 +148,6 @@
     {"id":{"name":"spr_jimothy","path":"sprites/spr_jimothy/spr_jimothy.yy",},},
     {"id":{"name":"spr_jimothyAttack","path":"sprites/spr_jimothyAttack/spr_jimothyAttack.yy",},},
     {"id":{"name":"spr_rat","path":"sprites/spr_rat/spr_rat.yy",},},
-    {"id":{"name":"spr_rat1","path":"sprites/spr_rat1/spr_rat1.yy",},},
-    {"id":{"name":"spr_rat2","path":"sprites/spr_rat2/spr_rat2.yy",},},
     {"id":{"name":"spr_ratBite","path":"sprites/spr_ratBite/spr_ratBite.yy",},},
     {"id":{"name":"spr_ratWalk","path":"sprites/spr_ratWalk/spr_ratWalk.yy",},},
     {"id":{"name":"spr_shake","path":"sprites/spr_shake/spr_shake.yy",},},
@@ -170,8 +168,6 @@
     {"id":{"name":"spr_wateredge_6","path":"sprites/spr_wateredge_6/spr_wateredge_6.yy",},},
     {"id":{"name":"spr_wateredge_7","path":"sprites/spr_wateredge_7/spr_wateredge_7.yy",},},
     {"id":{"name":"spr_wateredge_8","path":"sprites/spr_wateredge_8/spr_wateredge_8.yy",},},
-    {"id":{"name":"squirrel01_1","path":"sprites/squirrel01_1/squirrel01_1.yy",},},
-    {"id":{"name":"squirrel01_2","path":"sprites/squirrel01_2/squirrel01_2.yy",},},
     {"id":{"name":"squirrel01_attack","path":"sprites/squirrel01_attack/squirrel01_attack.yy",},},
     {"id":{"name":"squirrel01_walk2","path":"sprites/squirrel01_walk2/squirrel01_walk2.yy",},},
     {"id":{"name":"squirrel01","path":"sprites/squirrel01/squirrel01.yy",},},
@@ -210,9 +206,9 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"R1Splash","path":"rooms/R1Splash/R1Splash.yy",},},
     {"roomId":{"name":"R2MainMenu","path":"rooms/R2MainMenu/R2MainMenu.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

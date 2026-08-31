@@ -67,6 +67,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+    {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"id":{"name":"Enemy_Tick","path":"scripts/Enemy_Tick/Enemy_Tick.yy",},},
     {"id":{"name":"scr_grid_rules","path":"scripts/scr_grid_rules/scr_grid_rules.yy",},},
     {"id":{"name":"close_1","path":"sounds/close_1/close_1.yy",},},
@@ -206,6 +207,7 @@
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"R2MainMenu","path":"rooms/R2MainMenu/R2MainMenu.yy",},},
     {"roomId":{"name":"R1Splash","path":"rooms/R1Splash/R1Splash.yy",},},
+    {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

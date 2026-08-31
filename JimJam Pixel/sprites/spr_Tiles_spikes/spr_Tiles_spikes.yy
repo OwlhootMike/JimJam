@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_Tiles_spikes",
   "bboxMode":0,
-  "bbox_bottom":79,
+  "bbox_bottom":63,
   "bbox_left":0,
   "bbox_right":15,
   "bbox_top":16,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":80,
+  "height":64,
   "HTile":true,
   "layers":[
     {"$GMImageLayer":"","%Name":"29d00a06-9e41-4561-8727-6298d23c7eea","blendMode":0,"displayName":"default","isLocked":false,"name":"29d00a06-9e41-4561-8727-6298d23c7eea","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

@@ -20,3 +20,11 @@ if (is_moving == true) {
         Enemy_Tick();
     }
 }
+
+if(hp <= 0 && isDead == false){
+
+	isDead = true;
+	image_yscale = -1;
+	obj_blackScreen.fadeout();
+	
+}

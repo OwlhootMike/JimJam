@@ -1,3 +1,5 @@
+if(hp > 0){
+
 //As long as myWeapon is 1, this code can be executed
 if(myWeapon == 1){
 
@@ -86,4 +88,5 @@ if(myWeapon == 2){
 	
 	}
 
+}
 }

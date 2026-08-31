@@ -1,0 +1,1 @@
+obj_blackScreen.alarm[0] = 60;

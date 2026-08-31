@@ -13,6 +13,7 @@ image_speed = 0;
 //Health
 hp = 20;
 maxHP = 20;
+isDead = false;
 
 //Do we have a stick?
 foundStick = false;

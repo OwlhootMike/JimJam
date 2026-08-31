@@ -1,3 +1,4 @@
+if(hp > 0){
 // Make sure we are allowed to move, and aren't CURRENTLY moving
 if (canMove == true && is_moving == false) {
     
@@ -32,4 +33,6 @@ if (canMove == true && is_moving == false) {
 		alarm[4] = 16;
 		
 	}
+}
+
 }

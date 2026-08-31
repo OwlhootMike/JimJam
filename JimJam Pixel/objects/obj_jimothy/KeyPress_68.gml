@@ -1,4 +1,5 @@
-// Make sure we are allowed to move, and aren't CURRENTLY moving
+if(hp > 0){
+	// Make sure we are allowed to move, and aren't CURRENTLY moving
 if (canMove == true && is_moving == false) {
     
     // 1. Calculate the tile to the left
@@ -32,4 +33,5 @@ if (canMove == true && is_moving == false) {
 		alarm[4] = 16;
 		
 	}
+}
 }

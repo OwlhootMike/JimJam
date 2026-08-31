@@ -2,6 +2,19 @@ randomise();
 
 cansToDown = 0;
 
+nextRoom = function(){
+
+	//Check if the cans	are down
+	if(cansToDown == 0){
+		obj_tracker.roomsPassed++;
+		obj_blackScreen.fadeout();
+	
+	}
+	
+}
+
+
+
 //----------------------------
 //Setting up Camera
 //----------------------------

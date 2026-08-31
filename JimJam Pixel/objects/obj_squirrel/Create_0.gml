@@ -21,7 +21,7 @@ maxHP = hp;
 
 //Hold variable to check for every 2 ticks to throw an acorn
 acornTurn = 0;
-maxAcornTurn = 2;
+maxAcornTurn = 5;
 
 // Define the custom tick function
 take_turn = function() {

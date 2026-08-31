@@ -1,4 +1,4 @@
-if(obj_trashcan.sprite_index == standing_trashcan){
+if(other.sprite_index == standing_trashcan){
   
 	  // Stop moving and unlock controls!
 	        is_moving = false;

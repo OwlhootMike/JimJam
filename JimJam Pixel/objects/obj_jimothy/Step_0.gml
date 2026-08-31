@@ -25,6 +25,7 @@ if(hp <= 0 && isDead == false){
 
 	isDead = true;
 	image_yscale = -1;
+	audio_play_sound(close_1, 10, false);
 	obj_blackScreen.fadeout();
 	
 }
